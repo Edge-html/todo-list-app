@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A Basic Todo List App Written with NodeJs and Express",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edge-html/todo-list-app.git"
+  },
+  "author": "Ian Carl Solana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edge-html/todo-list-app/issues"
+  },
+  "homepage": "https://github.com/Edge-html/todo-list-app#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
