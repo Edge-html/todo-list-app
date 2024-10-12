@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edge-html/todo-list-app.git"
+  },
+  "author": "Ian Carl Solana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edge-html/todo-list-app/issues"
+  },
+  "homepage": "https://github.com/Edge-html/todo-list-app#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
