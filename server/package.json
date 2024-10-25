@@ -19,7 +19,8 @@
   "homepage": "https://github.com/Edge-html/todo-list-app#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

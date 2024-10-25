@@ -1,8 +1,9 @@
+//mongodb-connection.js
 import mongoose from "mongoose";
 
 export default function connect() {
   const database =
-    "mongodb+srv://magbanuacariel:MY_PASSWORD@todocluster.iu0z4.mongodb.net/?retryWrites=true&w=majority&appName=TodoCluster";
+    "mongodb+srv://icsolana:password0214@todocluster.87itc.mongodb.net/?retryWrites=true&w=majority&appName=TodoCluster";
   mongoose
     .connect(database, {
       useNewUrlParser: true,
