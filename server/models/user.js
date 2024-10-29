@@ -1,4 +1,4 @@
-//user.js
+//models/user.js
 import { Schema, model } from "mongoose";
 
 // create the schema

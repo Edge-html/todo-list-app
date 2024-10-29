@@ -1,0 +1,68 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation styling */
+nav.navigation {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav.navigation a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav.navigation a:hover {
+    background-color: #0056b3;
+}
+
+/* Main application container */
+#app {
+    padding: 20px;
+    min-height: calc(100vh - 52px); /* Adjust height, considering nav height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home container styling */
+.home-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #007BFF;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Responsive design adjustments */
+@media (min-width: 768px) {
+    nav.navigation {
+        justify-content: center;
+    }
+}
