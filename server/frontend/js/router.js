@@ -5,7 +5,7 @@ window.addEventListener("hashchange", () => {
 
 function fetchView(view) {
     const appDiv = document.getElementById('app');
-    appDiv.innerHTML = ''; // Clear existing content before loading new content
+    appDiv.innerHTML = ''; // Clear existing content
 
     fetch(`${view}.html`)
         .then(response => response.text())
@@ -28,4 +28,3 @@ function route(path) {
     fetchView(path);
 }
 
-docu
