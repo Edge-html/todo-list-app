@@ -8,19 +8,16 @@ import usersRouter from "./routes/users.js";
 const app = express();
 const port = 3000;
 
-// Get the absolute path of the project root directory
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectRoot = path.resolve(__dirname, ".."); // Moves up to the root of the project
+const projectRoot = path.resolve(__dirname, ".."); 
 
 // Connect to MongoDB
 connect();
 
-// Middleware to parse URL-encoded and JSON bodies
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Serve static files from the 'frontend' directory
 app.use(express.static(path.join(projectRoot, "frontend")));
 
 // API route handlers
