@@ -1,0 +1,171 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f4f7fa;
+    line-height: 1.6;
+    padding-top: 70px; /* Adjust padding to avoid content being hidden behind the navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Container for All Pages */
+main, .container {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 404 Page Styling */
+.error-page h1 {
+    font-size: 6rem;
+    color: #ff4040;
+    margin-bottom: 0.5rem;
+}
+
+.error-page p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+.error-page a {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.error-page a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-weight: 600;
+    color: #555;
+    text-align: left;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Todo List Styling */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#todo-list li {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: #f4f4f4;
+    border-left: 4px solid #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#todo-list li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#todo-list li a:hover {
+    color: #0056b3;
+}
+
+/* Utility Styles */
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
